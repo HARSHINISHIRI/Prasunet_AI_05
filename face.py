@@ -1,6 +1,6 @@
 import cv2
 import time
-import imutilsr̥
+import imutils
 
 camera=cv2.VideoCapture(0)
 time.sleep(1)
@@ -33,7 +33,7 @@ while True:
                     continue
             (x, y, w, h) = cv2.boundingRect(c)
             cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 0), 2)
-            text = "Moving Object detected"
+            text = "FACE DETECTED "
     print(text)
 
 
