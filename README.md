@@ -1,6 +1,3 @@
-
-## Hi there 👋 It's me Harshini
-
 ## PROJECT NAME
 FACE DETECTION
 
